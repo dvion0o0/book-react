@@ -28,9 +28,22 @@ body{
     background-color: #ffffff;
     border-radius:1rem;
     padding:1rem 2rem;
+    display:grid;
+    place-items: center;
 }
+
+.book img{
+   width:200px;
+}
+
 
 .book h2{
     margin-top: 1rem;
     margin-bottom: 0.5rem;
+    font-size: 1rem;
+}
+
+.book h3{
+    font-size: 0.75rem;
+    color:grey;
 }
